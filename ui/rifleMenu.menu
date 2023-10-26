@@ -1,0 +1,22 @@
+{
+    name "rifleMenu"
+    visible 0
+    rect 100 100 300 200
+    style 1
+
+    itemDef
+    {
+        name "kar98k"
+        rect 10 10 280 30
+        text "1) Kar98k"
+        action "buyWeapon('kar98k', 1500)"
+    }
+
+    itemDef
+    {
+        name "enfield"
+        rect 10 50 280 30
+        text "2) Lee-Enfield"
+        action "buyWeapon('enfield', 1600)"
+    }
+}

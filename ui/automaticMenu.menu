@@ -1,0 +1,22 @@
+{
+    name "automaticMenu_mp"
+    visible 0
+    rect 100 100 300 200
+    style 1
+
+    itemDef
+    {
+        name "thompson_mp"
+        rect 10 10 280 30
+        text "1) Thompson"
+        action "buyWeapon('thompson', 2000)"
+    }
+
+    itemDef
+    {
+        name "mp40_mp"
+        rect 10 50 280 30
+        text "2) MP40"
+        action "buyWeapon('mp40', 2100)"
+    }
+}

@@ -1,0 +1,22 @@
+{
+    name "pistolMenu"
+    visible 0
+    rect 100 100 300 200
+    style 1
+
+    itemDef
+    {
+        name "colt"
+        rect 10 10 280 30
+        text "1) Colt .45"
+        action "buyWeapon('colt', 500)"
+    }
+
+    itemDef
+    {
+        name "luger"
+        rect 10 50 280 30
+        text "2) Luger"
+        action "buyWeapon('luger', 600)"
+    }
+}

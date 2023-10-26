@@ -1,0 +1,30 @@
+{
+    name "buyMenu"
+    visible 0
+    rect 100 100 300 200
+    style 1
+
+    itemDef
+    {
+        name "pistol"
+        rect 10 10 280 30
+        text "1) Pistols"
+        action "openSubMenu('pistolMenu')"
+    }
+
+    itemDef
+    {
+        name "rifle"
+        rect 10 50 280 30
+        text "2) Rifles"
+        action "openSubMenu('rifleMenu')"
+    }
+
+    itemDef
+    {
+        name "automatic"
+        rect 10 90 280 30
+        text "3) Automatics"
+        action "openSubMenu('automaticMenu')"
+    }
+}
